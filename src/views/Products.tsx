@@ -1,5 +1,5 @@
 import { Link, useLoaderData, type ActionFunctionArgs} from 'react-router-dom'
-import { getProducts, updateProduct, updateProductAvailability } from '../services/ProductService'
+import { getProducts, updateProductAvailability } from '../services/ProductService'
 import ProductDetails from '../components/ProductDetails'
 import { Product } from '../types'
 
